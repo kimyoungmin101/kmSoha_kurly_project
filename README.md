@@ -35,9 +35,9 @@
 ### 프로젝트 결과
 
 ## 앱
-<img src="image" src="https://user-images.githubusercontent.com/42969129/186363381-2165e8fd-747d-4829-b9da-4d10804c8e2d.png" width="500"> 
-<img src="image" src="https://user-images.githubusercontent.com/42969129/186363402-1c8c28cb-5168-455f-85a8-52dd98c5206c.png" width="500"> 
-<img src="image" src="https://user-images.githubusercontent.com/42969129/186363392-3d3d08d8-cd2b-4297-b363-917c3e2f53e0.png" width="500"> 
+<img src="https://user-images.githubusercontent.com/42969129/186363381-2165e8fd-747d-4829-b9da-4d10804c8e2d.png" width="500"> 
+<img src="https://user-images.githubusercontent.com/42969129/186363402-1c8c28cb-5168-455f-85a8-52dd98c5206c.png" width="500"> 
+<img src="https://user-images.githubusercontent.com/42969129/186363392-3d3d08d8-cd2b-4297-b363-917c3e2f53e0.png" width="500"> 
 
 
 ## 웹
@@ -45,4 +45,4 @@
 
 
 ## 데이터분석
-<img src="https://user-images.githubusercontent.com/42969129/186358298-34e54a39-4e60-4680-9e9d-deb9246fce39.png" width="1000"> 
+<img src="https://user-images.githubusercontent.com/42969129/186363896-1538bbf1-483e-43e8-b530-b7895c65667e.png" width="1000"> 
