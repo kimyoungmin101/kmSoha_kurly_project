@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/g_soha_nav_graph"
+    app:startDestination="@id/fragment_home">
+    <fragment
+        android:id="@+id/fragment_calendar"
+        android:name="com.example.kurly_project_app.presentation.view.calendar.CalendarFragment"
+        android:label="fragment_calendar"
+        tools:layout="@layout/fragment_calendar" />
+    <fragment
+        android:id="@+id/fragment_menu"
+        android:name="com.example.kurly_project_app.presentation.view.menu.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/fragment_product"
+        android:name="com.example.kurly_project_app.presentation.view.product.ProductFragment"
+        android:label="fragment_product"
+        tools:layout="@layout/fragment_product" >
+        <argument
+            android:name="Product"
+            app:argType="com.example.kurly_project_app.data.model.Product" />
+        <action
+            android:id="@+id/action_fragment_product_to_fragment_calendar"
+            app:destination="@id/fragment_calendar" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_settings"
+        android:name="com.example.kurly_project_app.presentation.view.settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/fragment_search"
+        android:name="com.example.kurly_project_app.presentation.view.search.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/fragment_home"
+        android:name="com.example.kurly_project_app.presentation.view.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_productFragment"
+            app:destination="@id/fragment_product" />
+        <action
+            android:id="@+id/action_homeFragment_to_calendarFragment"
+            app:destination="@id/fragment_calendar" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_person"
+        android:name="com.example.kurly_project_app.presentation.view.person.PersonFragment"
+        android:label="fragment_person"
+        tools:layout="@layout/fragment_person"/>
+</navigation>
