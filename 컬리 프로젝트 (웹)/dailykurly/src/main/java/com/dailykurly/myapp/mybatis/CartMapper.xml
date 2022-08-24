@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cart">
+
+	<insert id="insert" parameterType="cartDto">
+		INSERT INTO cart
+		(cart_number, user_id, product_id, product_count) 
+		VALUES (#{cart_number}, #{user_id}, #{product_id}, #{product_count})
+	</insert>
+
+	<select id="getList" resultType="cartDto">
+        SELECT c.cart_number, c.user_id, s.product_id, s.product_name, s.product_imgeurl, product_count, product_price, (product_price*product_count) money
+        FROM user u, cart c, product s
+        WHERE u.user_id=c.user_id and c.product_id=s.product_id and c.user_id=#{user_id}
+        ORDER BY cart_number
+    </select>
+    
+    <select id="productMoney" resultType="cartDto">
+    	SELECT product_name, SUM(product_price*product_count) money
+    	FROM cart c, product s
+    	WHERE c.product_id = s.product_id
+    	GROUP BY product_name
+    	ORDER BY product_name
+    </select>
+    
+    <select id="sumMoney" resultType="int">
+    	SELECT COALESCE(SUM(product_price*product_count), 0) money
+    	FROM cart c, product s
+    	WHERE c.product_id = s.product_id AND c.user_id=#{user_id}
+    </select>
+    
+    <delete id="delete">
+    	DELETE FROM cart
+    	WHERE cart_number = #{cart_number}
+    </delete>
+
+</mapper>

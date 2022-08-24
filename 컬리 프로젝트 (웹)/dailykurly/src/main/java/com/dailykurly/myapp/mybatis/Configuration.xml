@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+	<typeAliases>
+		<typeAlias type="com.dailykurly.myapp.info.dto.InfoDto" alias="infoDto"/>
+		<typeAlias type="com.dailykurly.myapp.user.dto.UserDto" alias="userDto"/>
+		<typeAlias type="com.dailykurly.myapp.cart.dto.CartDto" alias="cartDto"/>
+		<typeAlias type="com.dailykurly.myapp.recommend.dto.RecommendDto" alias="recommendDto"/>
+	</typeAliases>
+
+	<mappers>
+		<mapper resource="com/dailykurly/myapp/mybatis/InfoMapper.xml"/>
+		<mapper resource="com/dailykurly/myapp/mybatis/UserMapper.xml"/>
+		<mapper resource="com/dailykurly/myapp/mybatis/CartMapper.xml"/>
+		<mapper resource="com/dailykurly/myapp/mybatis/RecommendMapper.xml"/>
+	</mappers>
+	
+</configuration>
