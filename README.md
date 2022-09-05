@@ -35,14 +35,24 @@
 ### 프로젝트 결과
 
 ## 앱
-<img src="https://user-images.githubusercontent.com/42969129/186363381-2165e8fd-747d-4829-b9da-4d10804c8e2d.png" width="500"> 
-<img src="https://user-images.githubusercontent.com/42969129/186363402-1c8c28cb-5168-455f-85a8-52dd98c5206c.png" width="500"> 
-<img src="https://user-images.githubusercontent.com/42969129/186363392-3d3d08d8-cd2b-4297-b363-917c3e2f53e0.png" width="500"> 
+<img src="https://user-images.githubusercontent.com/42969129/186363381-2165e8fd-747d-4829-b9da-4d10804c8e2d.png" width="200"> 
+<img src="https://user-images.githubusercontent.com/42969129/186363392-3d3d08d8-cd2b-4297-b363-917c3e2f53e0.png" width="200">
+<img src="https://user-images.githubusercontent.com/42969129/186363402-1c8c28cb-5168-455f-85a8-52dd98c5206c.png" width="200"> 
 
 
-## 웹
-<img src="https://user-images.githubusercontent.com/42969129/186358298-34e54a39-4e60-4680-9e9d-deb9246fce39.png" width="1000"> 
+## 웹 1.
+<img src="https://user-images.githubusercontent.com/42969129/186369910-9f13b19e-1653-4839-a973-1154e5360e77.png" width="1000">
+# 웹 2.
+<img src="https://user-images.githubusercontent.com/42969129/186369938-cf85a549-5236-4a03-a6ab-5fd31d517f21.png" width="1000">
+# 웹 3.
+<img src="https://user-images.githubusercontent.com/42969129/186369941-fa4a6830-c9a8-4cc4-8d46-fa20dd814ff7.png" width="1000">
+# 웹 4.
+<img src="https://user-images.githubusercontent.com/42969129/186369944-2ab78c78-73db-44dd-b936-92caf5a986b5.png" width="1000">
+# 웹 5.
+<img src="https://user-images.githubusercontent.com/42969129/186369946-dc7d454f-b890-4794-a2bb-36c5a4464d95.png" width="1000">
 
 
 ## 데이터분석
 <img src="https://user-images.githubusercontent.com/42969129/186363896-1538bbf1-483e-43e8-b530-b7895c65667e.png" width="1000"> 
+<img src="https://user-images.githubusercontent.com/42969129/186370609-8ff98ee5-094a-4e50-9636-81b2fe53fa8b.png" width="1000"> 
+  
